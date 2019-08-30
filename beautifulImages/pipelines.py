@@ -5,10 +5,7 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
-from twisted.enterprise import adbapi
 from scrapy.exceptions import DropItem
-import MySQLdb
-import MySQLdb.cursors
 import logging
 from scrapy.pipelines.files import FilesPipeline
 import os
