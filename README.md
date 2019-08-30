@@ -4,8 +4,8 @@
 爬取国模套图，希望你喜欢
 
 #### 软件架构
-scrapy ~1.7.3
-python 2.7.x
+- scrapy ~1.7.3
+- python 2.7.x
 
 
 #### 安装教程
@@ -20,6 +20,4 @@ python 2.7.x
 
 
 #### 注意
-确保版本 
-scrapy >= 1.7.x
-python 2.7
+> 确保版本 scrapy >= 1.7.x
