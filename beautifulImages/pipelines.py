@@ -9,7 +9,12 @@ from scrapy.exceptions import DropItem
 import logging
 from scrapy.pipelines.files import FilesPipeline
 import os
-from urlparse import urlparse
+
+try:
+    from urlparse import urlparse
+except ImportError:
+    from urllib.parse import urlparse
+
 import scrapy
 
 logger = logging.getLogger(__name__)
